@@ -1,0 +1,59 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1em;
+}
+
+body {
+  background-color: rgb(255, 241, 241);
+  color:rgb(39, 38, 38);
+}
+
+.bold {
+  font-weight: bold;
+  color:black;
+}
+
+.header {
+  text-align: center;
+  color:black;
+}
+
+h1.header {
+  font-size: 4em;
+}
+
+h2.header {
+  font-size: 2em;
+}
+
+h3.header {
+  font-size: 1.25em;
+}
+
+section, footer {
+  width: 600px;
+  margin: auto;
+}
+
+.paragraph {
+  text-align: justify;
+}
+
+.paragraph + .paragraph {
+  margin-bottom: 1em;
+}
+
+table {
+  border: 1px solid gray;
+  margin: auto;
+}
+
+img {
+  float: left;
+  margin: 0px 10px 0px 0px;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: right;
+}
